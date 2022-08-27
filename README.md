@@ -38,6 +38,11 @@ $ git clone <selenium-projects URL>
 ``` 
 When asked to enter credentials, input your username and personal access token.
 
+Install the required dependencies included in requirements.txt:
+```
+$ pip3.9 install -r requirements.txt
+```
+
 ### Set Environment Variables
 Create a copy of .env.template named .env:
 ```
