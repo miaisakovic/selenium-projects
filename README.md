@@ -44,7 +44,7 @@ If Google Chrome has not been installed on your local machine, download the Chro
 
 Clone this repository:
 ```
-$ git clone <selenium-projects URL>
+$ git clone https://github.com/miaisakovic/selenium-projects.git
 ``` 
 When asked to enter credentials, input your username and personal access token.
 
