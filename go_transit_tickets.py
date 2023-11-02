@@ -80,7 +80,6 @@ try:
 except Exception:
     assert False, "Can't locate the top three trip results"
 
-counter = 0
 for trip in trip_results:
     try:
         wait.until(ExpectedCondition.visibility_of_element_located((
@@ -151,7 +150,5 @@ for trip in trip_results:
         close_popup.click()
     except Exception:
         assert False, "Can't close the 'Details / E-tickets' popup"
-
-    counter = counter + 1
 
 driver.quit()

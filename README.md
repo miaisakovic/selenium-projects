@@ -1,6 +1,6 @@
 # Selenium Projects
 A collection of the following automation projects developed with Selenium:
-1. Gather the top three travel options for going from Kitchener GO to Union Station GO at 5 pm the next day
+1. Gather the top three travel options for going from Kitchener GO to Union Station GO at 5 pm the next day (Since GO Transit's website has been updated, this project is no longer functional)
 2. Upload a new profile picture on Instagram
 3. Download the latest UWaterloo Math News Article
 
@@ -10,7 +10,7 @@ A collection of the following automation projects developed with Selenium:
   * [For MacOS](#for-macos)
   * [After Installing Initial Requirements](#after-installing-initial-requirements)
   * [Set Environment Variables](#set-environment-variables)
-* [How to Use A Project](#how-to-use-a-project)
+* [How to Use a Project](#how-to-use-a-project)
 
 ## Setup 
 ### For Linux
@@ -78,7 +78,7 @@ Assign the absolute path to a JPEG or PNG image you would like to be your Instag
 **LOCAL_FOLDER_FOR_ARTICLE**\
 Assign the relative path to a folder where UW Math News article(s) should be saved (this folder does not need to exist). 
 
-## How to Use A Project
+## How to Use a Project
 Each time you would like to use a project, run the following command:
 ```
 $ python3.9 <relative path to one of the project files>

@@ -29,8 +29,8 @@ driver.get("https://mathnews.uwaterloo.ca/")
 # Click the link of the most recent Math NEWS article
 try:
     wait.until(ExpectedCondition.element_to_be_clickable((By.PARTIAL_LINK_TEXT,
-                                                          "mathNEWS ")))
-    article_link = driver.find_elements(By.PARTIAL_LINK_TEXT, "mathNEWS ")
+                                                          "mathNEWS-")))
+    article_link = driver.find_elements(By.PARTIAL_LINK_TEXT, "mathNEWS-")
     text = article_link[0].text
     article_link[0].click()
 except Exception:
@@ -54,7 +54,7 @@ if not os.path.isdir(local_folder):
     os.makedirs(local_folder)
 
 # The file name of the saved article
-local_file = text.replace(" ", "_") + "_copy.pdf"
+local_file = text + "-copy.pdf"
 
 # Download the article and save it in the local folder
 #   under the specified file name
